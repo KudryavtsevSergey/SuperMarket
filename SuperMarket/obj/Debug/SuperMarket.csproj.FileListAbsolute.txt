@@ -1,0 +1,7 @@
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\SuperMarket.exe.config
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\SuperMarket.exe
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\SuperMarket.pdb
+E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.csprojResolveAssemblyReference.cache
+E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.csproj.CoreCompileInputs.cache
+E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.exe
+E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.pdb
