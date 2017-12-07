@@ -5,3 +5,10 @@ E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.csprojResol
 E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.csproj.CoreCompileInputs.cache
 E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.exe
 E:\Работы\СПП\SuperMarket\SuperMarket\obj\Debug\SuperMarket.pdb
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Castle.Core.dll
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Moq.dll
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Castle.Core.xml
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Moq.pdb
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\Moq.xml
+E:\Работы\СПП\SuperMarket\SuperMarket\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

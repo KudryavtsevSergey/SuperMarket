@@ -27,6 +27,26 @@ namespace SuperMarket
             }
         }
 
+        public void Remove(IProduct product)
+        {
+            if (products.ContainsKey(product))
+            {
+                if (products[product] == 1)
+                {
+                    products.Remove(product);
+                }
+                else
+                {
+                    products[product] -= 1;
+                }
+            }
+        }
+
+        public int Count()
+        {
+            return products.Count;
+        }
+
         public double Check()
         {
             double sum = 0;
@@ -34,7 +54,7 @@ namespace SuperMarket
             {
                 if (product.Key.hasDiscount())
                 {
-                    IDiscount discount = product.Key.getDiscount();
+                    IDiscount discount = product.Key.Discount;
                     sum += discount.Price * (product.Value / discount.Count);
                     sum += product.Key.Price * (product.Value % discount.Count);
                 }
@@ -46,5 +66,42 @@ namespace SuperMarket
             return sum;
         }
 
+        public void PrintCheck()
+        {
+            foreach (KeyValuePair<IProduct, int> product in products)
+            {
+                Console.WriteLine("Название: " + product.Key.Name + " Цена: " + product.Key.Price + " Количество: " + product.Value);
+            }
+            
+        }
+
+        public void PrintSum()
+        {
+            Console.WriteLine("Общая цена: " + this.Check());
+        }
+
+        public bool IsContain(string productName)
+        {
+            foreach(KeyValuePair<IProduct, int> product in products)
+            {
+                if(productName == product.Key.Name)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public int CountOneProduct(string productName)
+        {
+            foreach (KeyValuePair<IProduct, int> product in products)
+            {
+                if (productName == product.Key.Name)
+                {
+                    return product.Value;
+                }
+            }
+            return 0;
+        }
     }
 }

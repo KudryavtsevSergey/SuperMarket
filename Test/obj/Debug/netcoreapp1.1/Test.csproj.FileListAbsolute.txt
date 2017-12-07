@@ -1,0 +1,10 @@
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Test.deps.json
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.json
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.dev.json
+E:\Работы\СПП\SuperMarket\Test\bin\Debug\netcoreapp1.1\Test.dll
+E:\Работы\СПП\SuperMarket\Test\obj\Debug\netcoreapp1.1\Test.csprojResolveAssemblyReference.cache
+E:\Работы\СПП\SuperMarket\Test\obj\Debug\netcoreapp1.1\Test.csproj.CoreCompileInputs.cache
+E:\Работы\СПП\SuperMarket\Test\obj\Debug\netcoreapp1.1\Test.AssemblyInfo.cs

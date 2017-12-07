@@ -10,7 +10,7 @@ namespace SuperMarket
     {
         string Name { get; }
         double Price { get; }
+        IDiscount Discount { get; }
         bool hasDiscount();
-        IDiscount getDiscount();
     }
 }

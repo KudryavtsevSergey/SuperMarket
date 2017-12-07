@@ -8,20 +8,20 @@ namespace SuperMarket
 {
     public class Product : IProduct
     {
-        private IDiscount discount;
+        public IDiscount Discount { get; private set; }
         public string Name { get; private set; }
         public double Price { get; private set; }
 
         public Product(string name, double price, IDiscount discount = null)
         {
-            this.discount = discount;
+            this.Discount = discount;
             this.Name = name;
             this.Price = price;
         }
 
         public bool hasDiscount()
         {
-            if (this.discount == null)
+            if (this.Discount == null)
             {
                 return false;
             }
@@ -29,11 +29,6 @@ namespace SuperMarket
             {
                 return true;
             }
-        }
-
-        public IDiscount getDiscount()
-        {
-            return this.discount;
         }
     }
 }
